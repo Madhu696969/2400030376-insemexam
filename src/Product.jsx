@@ -20,7 +20,6 @@ const Product = () => {
 
   return (
     <div className="prod-con">
-      <h2> Product List with Category Filter</h2>
 
       <div className="cate-but">
         {categories.map((cat) => (
